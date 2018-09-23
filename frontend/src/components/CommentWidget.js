@@ -9,6 +9,8 @@ import avatar1 from '../assets/avatar1.jpg';
 import avatar2 from '../assets/avatar2.jpg';
 import avatar3 from '../assets/avatar3.jpg';
 import avatar4 from '../assets/avatar4.jpg';
+import likeImg from '../assets/like.png';
+import dislikeImg from '../assets/dislike.png';
 import styles from './CommentWidget.css';
 
 const {TextArea} = Input;
@@ -219,22 +221,32 @@ class CommentWidget extends React.Component {
                   {comment.upvotes}
                 </span>
                 <span className={styles.voteControl}>
-                  <Icon
-                    type="caret-up"
-                    theme="outlined"
+                  <img
+                    src={likeImg}
                     className={styles.voteIcon}
                     onClick={() => this.onUpVote(comment.id)}
                   />
+                  {/*<Icon*/}
+                    {/*type="caret-up"*/}
+                    {/*theme="outlined"*/}
+                    {/*className={styles.voteIcon}*/}
+                    {/*onClick={() => this.onUpVote(comment.id)}*/}
+                  {/*/>*/}
                 </span>
               </a>
               <a className={styles.voteDown}>
                 <span className={styles.voteControl}>
-                  <Icon
-                    type="caret-down"
-                    theme="outlined"
+                  <img
+                    src={dislikeImg}
                     className={styles.voteIcon}
                     onClick={() => this.onDownVote(comment.id)}
                   />
+                  {/*<Icon*/}
+                    {/*type="caret-down"*/}
+                    {/*theme="outlined"*/}
+                    {/*className={styles.voteIcon}*/}
+                    {/*onClick={() => this.onDownVote(comment.id)}*/}
+                  {/*/>*/}
                 </span>
               </a>
             </div>
