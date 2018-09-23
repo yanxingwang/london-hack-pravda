@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Layout, Card, Alert, Button
+  Layout, Card, Alert, Button, Icon, message
 } from 'antd';
 
 import DocumentTitle from 'react-document-title';
@@ -11,6 +11,10 @@ import styles from './InstallCode.css';
 import NavHeader from '../components/NavHeader';
 
 class InstallCode extends React.Component {
+
+  onCopySuccessfully() {
+    message.success('Copied to clipboard!', 1);
+  }
 
   render() {
     const codeString = 'import { CommentWidget } from \'pravda-react\';\n\n' +
@@ -40,12 +44,24 @@ class InstallCode extends React.Component {
               <ol className={styles.instructionsList}>
                 <li>
                   <p>Install the JavaScript library via <code>npm</code>:</p>
-                  <SyntaxHighlighter language='bash' style={docco}>npm install pravda-react</SyntaxHighlighter>
+                  <div className={styles.codeContainer}>
+                    <SyntaxHighlighter language='bash' style={docco}>npm install pravda-react</SyntaxHighlighter>
+                    <div className={styles.codeCopy} onClick={() => this.onCopySuccessfully()}>
+                      <Icon type="copy" theme="outlined" style={{marginRight: 4}} />
+                      Copy to clipboard
+                    </div>
+                  </div>
                 </li>
 
                 <li>
                   <p>Place the following code to your React web page:</p>
-                  <SyntaxHighlighter language='javascript' style={docco}>{codeString}</SyntaxHighlighter>
+                  <div className={styles.codeContainer}>
+                    <SyntaxHighlighter language='javascript' style={docco}>{codeString}</SyntaxHighlighter>
+                    <div className={styles.codeCopy} onClick={() => this.onCopySuccessfully()}>
+                      <Icon type="copy" theme="outlined" style={{marginRight: 4}} />
+                      Copy to clipboard
+                    </div>
+                  </div>
                 </li>
               </ol>
 

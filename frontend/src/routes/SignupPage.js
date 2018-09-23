@@ -114,7 +114,9 @@ class SignupPage extends React.Component {
         <FormItem
           wrapperCol={{span: 12, offset: 6}}
         >
-          <Button type="primary" htmlType="submit" href="/#/install">Create Account</Button>
+          <Button type="primary" htmlType="submit" href="/#/install" className={styles.nextButton}>
+            Create Account
+          </Button>
         </FormItem>
       </Form>
     );

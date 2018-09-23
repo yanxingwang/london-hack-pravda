@@ -368,7 +368,7 @@
   font-weight: 700;
   float: right;
   border: none;
-  background: rgba(29,47,58,.6);
+  background: #651FFF;
   display: inline-block;
   color: #fff;
   line-height: 1.1;
@@ -378,7 +378,7 @@
 }
 
 .postActionButton:hover {
-  background: rgba(29,47,58,.7);
+  background: #4715b4;
   color: #fff;
   transition: background-position .1s linear;
   text-decoration: none;

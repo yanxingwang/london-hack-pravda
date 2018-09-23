@@ -83,3 +83,25 @@
 pre, code, kbd, samp {
   font-size: 0.9em;
 }
+
+.codeContainer {
+  position: relative;
+}
+
+.codeCopy {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  font-size: 12px;
+  color: #651FFF;
+  font-family: Helvetica Neue;
+  cursor: pointer;
+}
+
+.codeCopy:hover {
+  color: #4c17c1;
+  /*font-size: 12.5px;*/
+  transition: all .1s linear;
+  text-decoration: none;
+  -webkit-transform: scale(1.05);
+}

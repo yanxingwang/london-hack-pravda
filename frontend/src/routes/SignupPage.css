@@ -77,3 +77,25 @@
 .formTextGrayLight {
   color: #c2c9d4;
 }
+
+.nextButton {
+  white-space: nowrap;
+  border-radius: 0 0 3px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  background: #651FFF;
+  display: inline-block;
+  color: #fff;
+  line-height: 1.1;
+  transition: background .2s;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.nextButton:hover {
+  background: #4715b4;
+  color: #fff;
+  transition: background-position .1s linear;
+  text-decoration: none;
+}

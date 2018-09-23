@@ -3,7 +3,7 @@ import DocumentTitle from 'react-document-title';
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
 import {
-  Row, Col
+  Row, Col, Button
 } from 'antd';
 import styles from './HomePage.css';
 import logoImg from '../assets/logo.png';
@@ -57,12 +57,12 @@ class HomePage extends React.Component {
 
             <div className={styles.buttonContainer}>
               <div className={styles.actionButtonList}>
-                <button className={styles.actionButton}>
+                <Button className={styles.actionButton} href="/#/onboard">
                   Get started
-                </button>
-                <button className={styles.actionButton}>
+                </Button>
+                <Button className={styles.actionButton} href="/#/blog">
                   Sample blog
-                </button>
+                </Button>
               </div>
             </div>
 

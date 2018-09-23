@@ -8,6 +8,7 @@
   min-height: 100vh;
   background: url('../assets/home_background.png') no-repeat;
   background-size: cover;
+  z-index: 800;
 }
 
 .logo {
@@ -81,21 +82,25 @@
 }
 
 .actionButton {
+  z-index: 1000;
   margin-left: 18px;
   margin-right: 18px;
   background: #651FFF;
+  color: white;
   border-radius: 3px;
+  padding-top: 11px;
   width: 187px;
   height: 54px;
   font-size: 20px;
   font-weight: 400;
-  color: white;
   border: none;
   cursor: pointer;
 }
 
 .actionButton:hover {
-  background: #4009ff;
+  z-index: 1000;
+  background: #4e18c4;
+  color: white;
   transition: background-position .1s linear;
   text-decoration: none;
   cursor: pointer;
