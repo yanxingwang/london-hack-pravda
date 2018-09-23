@@ -1,0 +1,85 @@
+.background {
+  background-color: #100722;
+  padding-bottom: 32px;
+}
+
+.installStepCard {
+  margin-top: 36px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.installStepTitle {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #353a3d;
+  font-size: 22px;
+  line-height: 1.1em;
+  font-weight: 500;
+}
+
+.installStepSubTitle {
+  color: #687a86;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.instructionsList {
+  margin: 35px 0 0 70px;
+  padding-left: 0;
+  counter-reset: li;
+}
+
+.instructionsList > li {
+  font-size: 14px;
+  line-height: 1.5em;
+  position: relative;
+  z-index: 200;
+  list-style: none;
+  margin-bottom: 4em;
+}
+
+.instructionsList > li > code {
+  padding: 0 3px 2px;
+  font-family: Monaco, Andale Mono, Courier New, monospace;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.instructionsList > li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  top: -0.45em;
+  left: -3em;
+  width: 1.8em;
+  height: 1.8em;
+  margin-right: 8px;
+  padding: .42em 0;
+  color: #fff;
+  background: #ffd34f;
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 1em;
+}
+
+.instructionsList:after {
+  clear: both;
+}
+
+.additionalCus {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.listFooter {
+  border-top: 1px solid #ebeef2;
+  height: 32px;
+}
+
+pre, code, kbd, samp {
+  font-size: 0.9em;
+}

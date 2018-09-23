@@ -1,0 +1,129 @@
+.header {
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 76px;
+}
+
+.pageBody {
+  min-height: 100vh;
+  background: url('../assets/home_background.png') no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+  margin-top: 17px;
+  margin-left: 31px;
+}
+
+.menu {
+  float: right;
+  color: white;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
+  margin-top: 24px;
+  margin-right: 18px;
+}
+
+.menu span {
+  padding: 24px;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+}
+
+.contentContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleBox {
+  width: 62.43%;
+  height: 164px;
+  margin-top: 199px;
+  background-color: rgba(0, 0, 0, 0.41);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titleBox h1 {
+  font-family: Helvetica Neue;
+  font-size: 50px;
+  color: #FCFCFC;
+  letter-spacing: 0;
+  margin-top: 12px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.titleBox h2 {
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  color: #FFFFFF;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.buttonContainer {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actionButtonList {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actionButton {
+  margin-left: 18px;
+  margin-right: 18px;
+  background: #651FFF;
+  border-radius: 3px;
+  width: 187px;
+  height: 54px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  background: #4009ff;
+  transition: background-position .1s linear;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.metricsContainer {
+  width: 60%;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.metricsContainer img {
+  height: auto;
+  margin-top: 12px;
+  width: 190px;
+}
+
+.metricsBig {
+  font-size: 28px;
+  color: white;
+  font-weight: 300;
+  font-family: Helvetica Neue;
+}
+
+.metricsSmall {
+  font-size: 12px;
+  color: white;
+  margin-left: 12px;
+  font-weight: 100;
+  font-family: Helvetica Neue;
+}

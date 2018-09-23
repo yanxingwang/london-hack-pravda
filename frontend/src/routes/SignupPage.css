@@ -1,0 +1,79 @@
+.background {
+  background-color: #100722;
+}
+
+.registerStepCard {
+  margin-top: 36px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.registerStepTitle {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #353a3d;
+  font-size: 22px;
+  line-height: 1.1em;
+  font-weight: 500;
+}
+
+.registerStepSubTitle {
+  color: #687a86;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.formLabel {
+  font-size: 14px;
+  color: #687a86;
+  text-align: right;
+  padding-bottom: 0;
+  width: 25%;
+  flex-shrink: 0;
+  padding-right: 4px;
+  padding-top: 6px;
+  font-weight: 500;
+}
+
+.formFooter {
+  border-top: 1px solid #ebeef2;
+  height: 32px;
+}
+
+.formNameContainer {
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.formNameAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+.formNameAvatarContainer {
+  margin-top: -8px;
+  margin-right: 8px;
+}
+
+.formTextSmall {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+  color: #687a86;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.305em;
+  border: 0;
+  vertical-align: baseline;
+  padding: 0;
+}
+
+.formTextGrayLight {
+  color: #c2c9d4;
+}

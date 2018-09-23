@@ -1,0 +1,85 @@
+.header {
+  padding: 0;
+  background: url('../assets/banner.png') no-repeat;
+  background-size: cover;
+  height: 76px;
+}
+
+.headerContainer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 10px;
+  max-width: 1322px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.headerContainerRight {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 76px;
+}
+
+.headerContainerAvater {
+  height: 47px;
+  font-size: 16px;
+  font-weight: 500;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.headerContainerAvater img {
+  display: block;
+  height: 28px;
+  width: 28px;
+  border-radius: 3px;
+  background-color: #c2c9d4;
+  transition: all 250ms ease-in-out;
+  margin-left: 5px;
+}
+
+.headerContainerName {
+  margin-right: 8px;
+  color: #f0f2f5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.headerLogoContainer {
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 57px;
+}
+
+.headerLogo {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 57px;
+  margin-right: 10px;
+}
+
+.logoImg {
+  height: 30px;
+  width: auto;
+  margin-top: 12px;
+}
